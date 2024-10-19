@@ -1,0 +1,39 @@
+/* Remove margins and padding from html, body */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Full height layout */
+.layout {
+  min-height: 100vh; /* Ensures the layout takes full height */
+}
+
+/* Remove any padding from the Ant Design Header */
+.ant-layout-header {
+  padding: 0; /* Removes padding from the Header */
+}
+
+/* Style the Header */
+.header {
+  background-color: #052849; /* Ant Design default header color */
+  height: 64px;
+  display: flex;
+  align-items: center;
+
+}
+
+/* Style the logo inside the header */
+.logo {
+  color: white;
+  font-size: 20px;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+/* Style the Content area */
+.content {
+  padding: 24px;
+  background-color: #fff;
+}

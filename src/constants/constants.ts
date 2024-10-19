@@ -1,0 +1,1 @@
+export const brandURL = "src/assets/images /logo/stackline_logo.svg";
