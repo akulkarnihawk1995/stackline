@@ -1,0 +1,103 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+.sidebar {
+    flex: 1;
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 2rem;
+    align-self: flex-start;
+}
+
+.main-content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card.full-height {
+    height: auto;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-image {
+    margin-bottom: 1rem;
+}
+
+.product-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.product-description {
+    font-size: 0.875rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.product-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tag {
+    padding: 0.25rem 0.5rem;
+    background-color: #e5e7eb;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+}
+
+.lightning-deal {
+    padding: 0.5rem 1rem;
+    background-color: #fbbf24;
+    color: #92400e;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.page-title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.sales-chart-card {
+    margin-bottom: 2rem;
+}
+
+.sales-chart {
+    height: 400px;
+}
+
+.sales-data-card {
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .dashboard {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .sidebar {
+        flex: 1;
+        margin-bottom: 0;
+    }
+
+    .main-content {
+        flex: 3;
+    }
+}
