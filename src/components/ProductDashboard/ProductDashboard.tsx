@@ -7,9 +7,9 @@ import ProductDetails from "../ProductDetails/ProductDetails.tsx";
 import LineChart from '../LineChart/LineChart.tsx';
 import SalesTable from "../SalesTable/SalesTable.tsx";
 import {TableProps} from "antd";
-import {useDispatch} from "react-redux";
+
 import {getSalesdata} from "../../store/sales/sales.thunk.ts";
-import {AppDispatch, useAppDispatch, useAppSelector} from "../../store/store.ts";
+import { useAppDispatch, useAppSelector} from "../../store/store.ts";
 import {Sale} from "../../store/sales/sales.model.ts";
 import {SalesData} from "./ProductDashboard.types.ts";
 

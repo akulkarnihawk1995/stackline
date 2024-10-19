@@ -1,7 +1,7 @@
 import { Card } from 'antd'
 import { ResponsiveContainer, LineChart as RechartsLineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'
 import moment from 'moment'
-import {useEffect, useState} from "react";
+
 
 type SalesData = {
     weekEnding: string

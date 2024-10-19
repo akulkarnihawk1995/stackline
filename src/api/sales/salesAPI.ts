@@ -1,7 +1,4 @@
-import {AppDispatch} from '../../store/store.ts'
 import data from "./response.json";
-import * as axios from "axios";
-
 export class SalesAPI {
     public static async getData(){
         // const response = await axios.get("/sales-api",{

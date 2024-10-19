@@ -7,7 +7,7 @@ export const getSalesdata = createAsyncThunk('getSalesData',async(_, {rejectWith
         const response:Product[] = await SalesAPI.getData()
         return response
     }
-    catch (err:unknown){
+    catch (err){
         if(!err.response){
             throw err
         }

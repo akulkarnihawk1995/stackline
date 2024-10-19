@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Layout} from 'antd';
+import {Layout} from 'antd';
 import './App.css';
 import { Logo } from './components/Logo/Logo.tsx';
 import {brandURL} from "./constants/constants.ts";

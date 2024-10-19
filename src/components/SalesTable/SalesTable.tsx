@@ -4,6 +4,7 @@ import type {ColumnsType} from "antd/es/table";
 import {SearchOutlined} from "@ant-design/icons";
 import {SalesData} from "./SalesTable.types.tsx";
 
+// @ts-ignore
 const getColumnSearchProps = (dataIndex: keyof SalesData): ColumnsType<SalesData>[number] => ({
     filterDropdown: ({ setSelectedKeys, selectedKeys, confirm, clearFilters }) => (
         <div style={{ padding: 8 }}>

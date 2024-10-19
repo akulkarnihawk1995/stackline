@@ -5,13 +5,13 @@ import {Product} from "./sales.model.ts";
 
 const salesSlice = createSlice({
     extraReducers: (builder) => {
-        builder.addCase(getSalesdata.pending, (state, action) => {
+        builder.addCase(getSalesdata.pending, (state, _action) => {
             state.product = [];
         })
         builder.addCase(getSalesdata.fulfilled, (state, action) => {
             state.product = action.payload;
         })
-        builder.addCase(getSalesdata.rejected, (state, action) => {
+        builder.addCase(getSalesdata.rejected, (state, _action) => {
             state.product = []
         })
     },
